@@ -1,0 +1,164 @@
+
+
+body{
+    background-color: #FFFFF0;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.womenology{
+    display: flex;
+    font-size: 50px;
+  
+
+}
+ul{
+    margin-top:70px ;
+
+    color: #DEB887;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+font-size: 30px;
+
+
+}
+
+
+
+.bgfoto{
+    background-image: url(candle.jpg);
+    background-size: 100% 100%;
+    display: flex;
+  
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bgfoto h2{
+   
+    font-family: Georgia, serif;
+   
+    margin-top: 350px;
+    margin-bottom: 350px;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+
+
+footer{
+    background-color: #DEB887;
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    margin-top: 50px;
+
+}
+
+
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.whatwedo{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, serif;
+    font-size: 40px;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #DEB887;
+}
+
+.about:hover{
+   color: black;
+}
+ footer{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+ }
+.fillimifooter{
+    display: flex;
+    justify-content: center;
+}
+
+
+.fundifooter{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.description{
+    margin-top: 10px;
+    border: solid #DEB887;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+}
+.s{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.searchi{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 70px;
+}
+.ff{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.button button{
+    color: #FFFFF0;
+    background-color: #DEB887;
+    border: none ;
+    display: flex;
+    width: 50px;
+    height: 30px;
+    margin-top: 70px;
+   justify-content: center;
+    
+
+}
+
