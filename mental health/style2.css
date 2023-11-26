@@ -1,0 +1,136 @@
+body{
+    background-color: #FFFFF0;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.womenology{
+    display: flex;
+    font-size: 50px;
+  
+
+}
+ul{
+    margin-top:70px ;
+
+    color: #DEB887;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 30px;
+
+
+}
+
+
+
+.foto{
+    display: flex;
+  align-items: center;
+}
+.foto h2{
+    font-family: Georgia, serif;
+    font-size: 40px;
+    max-width: 100%;
+    margin-right: 70px;
+   
+}
+
+#tips{
+    font-family: Georgia, serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border : 1px black;
+    border-width: thick;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.tip1{
+    align-items:center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightblue;
+    border-width: medium;
+    margin: 5px;
+    font-size: 14pt;
+    color: black;
+}
+
+
+.search{
+    display: flex;
+    flex-direction: column;
+}
+
+.s{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.searchi{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 70px;
+}
+
+.ff{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.button button{
+    color: #FFFFF0;
+    background-color: #DEB887;
+    border: none ;
+    display: flex;
+    width: 50px;
+    height: 30px;
+    margin-top: 70px;
+   justify-content: center;
+    
+
+}
+
+
+
+footer{
+    background-color: lightblue;
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    margin-top: 50px;
+
+}
+.fillimifooter{
+    display: flex;
+    justify-content: center;
+}
+
+
+.fundifooter{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
