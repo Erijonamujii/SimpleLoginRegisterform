@@ -34,7 +34,7 @@ font-size: 30px;
 
 
 .bgfoto{
-    background-image: url(candle.jpg);
+    background-image: url(bg.jpg);
     background-size: 100% 100%;
     display: flex;
   
@@ -176,7 +176,49 @@ footer{
 }
 
 .womenology img{
-    width: 125px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     margin-top: 10px;
+}
+
+
+.menu-btn{
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+/*per telefona*/
+@media only screen and (max-width:850px){
+    nav{
+        padding:0;
+    }
+
+    .womenology{
+        position: absolute;
+        top: 30px;
+        left:30px;
+    }
+
+     ul{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+       margin-top: -900px;
+       
+
+    }
+    ul li{
+        padding: 30px;
+        
+    }
+
+
+    
+
+    
 }
