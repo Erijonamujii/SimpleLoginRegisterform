@@ -1,0 +1,82 @@
+
+
+
+
+body{
+    background-color: #FFFFF0;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.womenology{
+    display: flex;
+    font-size: 50px;
+
+
+}
+ul{
+    margin-top:70px ;
+
+    color: #DEB887;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+font-size: 20px;
+
+
+}
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: #DEB887;
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    margin-top: 50px;
+
+    
+
+}
+.fillimifooter{
+    display: flex;
+    justify-content: center;
+}
+.fundifooter{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.womenology img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.section-b{
+    display: flex;
+    flex-direction: column;
+    
+
+}
