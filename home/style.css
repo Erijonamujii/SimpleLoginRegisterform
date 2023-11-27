@@ -39,8 +39,8 @@ font-size: 30px;
     display: flex;
   
     justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .bgfoto h2{
    
@@ -128,12 +128,14 @@ footer{
     display: flex;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
 }
 .searchi{
     display: flex;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+   
+    
 }
 
 .connect{
@@ -145,6 +147,7 @@ footer{
 .ff{
     display: flex;
     justify-content: center;
+    
    
 }
 
@@ -162,3 +165,18 @@ footer{
 
 }
 
+.searchh{
+    border-radius: 25px;
+    border: 1px solid #DEB887;
+}
+
+.butoni_bg{
+    border-radius: 25px;
+    border: 1px solid #DEB887;
+}
+
+.womenology img{
+    width: 125px;
+    height: 110px;
+    margin-top: 10px;
+}
