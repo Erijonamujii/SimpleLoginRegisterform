@@ -182,15 +182,15 @@ footer{
 }
 
 
-.menu-btn{
+
+
+.login-btn{
     position: absolute;
     top: 70px;
     right: 30px;
     width: 40px;
     cursor: pointer;
 }
-
-
 /*per telefona*/
 @media only screen and (max-width:850px){
     nav{
@@ -208,7 +208,7 @@ footer{
         width: 100%;
         height: 100vh;
         justify-content: center;
-       margin-top: -900px;
+       /*margin-top: -900px;*/
        
 
     }
