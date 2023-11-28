@@ -1,0 +1,80 @@
+body{
+    background-color: #FFFFF0;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.womenology{
+    display: flex;
+    font-size: 50px;
+  
+
+}
+.womenology img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+ul{
+    margin-top:70px ;
+
+    color: #DEB887;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+
+.sc{
+    display: flex;
+  align-items: center;
+}
+
+.sc h2{
+   font-family: Georgia, serif;
+    font-size: 30px;
+    max-width: 100%;
+    margin-left: 70px;
+}
+
+
+.search{
+    display: flex;
+    flex-direction: column;
+}
+
+.s{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.searchi{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 70px;
+}
+
+.ff{
+    display: flex;
+    justify-content: center;
+   
+}
