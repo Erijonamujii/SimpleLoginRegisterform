@@ -124,3 +124,43 @@ footer{
 .section-a{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*per telefona*/
+@media only screen and (max-width:850px){
+    nav{
+        padding:0;
+    }
+
+    .womenology{
+        position: absolute;
+        top: 30px;
+        left:30px;
+    }
+
+     ul{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+       
+       
+
+    }
+    ul li{
+        padding: 30px;
+        
+    }
+
+    .section-a{
+        font-size: 12px;
+
+    }
+
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-b{
+        font-size: 20px;
+    }
+    
+}

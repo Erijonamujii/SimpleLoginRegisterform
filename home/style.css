@@ -41,7 +41,7 @@ ul{
 
 
 .bgfoto{
-    background-image: url(candle.jpg);
+    background-image: url(bg.jpg);
     background-size: 100% 100%;
     display: flex;
   
@@ -156,8 +156,8 @@ footer{
 }
 
 .login-btn{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin-top: 10px;
 }
 
@@ -173,7 +173,6 @@ footer{
     
 }
 
-<<<<<<< Updated upstream
 .searchh{
     border-radius: 25px;
     border: 1px solid #DEB887;
@@ -190,15 +189,14 @@ footer{
     margin-top: 10px;
 }
 
-
-
-
-.login-btn{
+.loginbtn{
     position: absolute;
-    top: 70px;
+    top: 30px;
     right: 30px;
     width: 40px;
     cursor: pointer;
+    
+
 }
 
 
@@ -229,5 +227,3 @@ footer{
     }
     
 }
-=======
->>>>>>> Stashed changes
