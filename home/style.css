@@ -225,5 +225,19 @@ footer{
         padding: 30px;
         
     }
-    
+    .whatwedo{
+        font-size: 20px;
+    }
+
+    .about{
+        font-size: 20px;
+    }
+.searchi{
+    width: 200px;
+    height: 30px;
+}
+
+    .h2{
+        font-size: 10px;
+    }
 }
