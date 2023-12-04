@@ -29,8 +29,6 @@ ul{
     justify-content: flex-end;
 font-size: 20px;
 
-
-
 }
 
 
@@ -151,9 +149,16 @@ footer{
     }
 
     .section-a{
+        
         font-size: 12px;
+     
+       
 
     }
+ p{
+    display: flex;
+    flex-wrap: wrap;
+ }
 
     .section{
         display: flex;
@@ -161,6 +166,11 @@ footer{
     }
     .section-b{
         font-size: 20px;
+        width: 250px;
+
     }
-    
+
+    .womenology p{
+        font-size: 35px;
+    }
 }
