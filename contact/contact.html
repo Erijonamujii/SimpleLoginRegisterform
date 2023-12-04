@@ -63,22 +63,26 @@
  <p>erirea@womenology.com</p>
 </div>
 
-<div class="section-b">
-    <input type="text" placeholder="NAME" class="name">
+
+
+<form action="=" name="contactForm" id="form">
+<div class="section-b" name="form">
+    <input type="text" placeholder="NAME" class="name" id="name">
     <br>
-    <input type="email"placeholder="EMAIL" class="email">
+    <input type="email"placeholder="EMAIL" class="email"id="email">
     <br>
-    <input type="text" name="" id="" placeholder="SUBJECT" class="subject">
+    <input type="text" name="" id="subject" placeholder="SUBJECT" class="subject">
     <br>
-    <textarea id="description" name="description" rows="4" cols="50" placeholder="MESSAGE" class="message"></textarea>
+    <textarea id="description" id="description" name="description" rows="4" cols="50" placeholder="MESSAGE" class="message"></textarea>
     <br>
-<input type="submit"placeholder="submit" class="submit" style="text-align: center;">
+    <div id="message" style="color: red;"></div>
+    
+    <button type="submit" name="submit" value="Submit" class="submit"><a href="" style="text-decoration: none; color: #DEB887;" >Submit</a> </button>
 </div>
 
         </div>
-
-
-
+    </form>
+    <div id="message" style="color: red;"></div>
 
 
     <footer>
@@ -100,7 +104,7 @@
      
          </div>
      </footer>
-     
+     <script src="contact.js"></script>
 
 </body>
 </html>

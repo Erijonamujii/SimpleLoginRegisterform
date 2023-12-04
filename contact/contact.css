@@ -115,8 +115,9 @@ footer{
     border:1px solid #DEB887;
     border-radius: 5px;
     width: 60px;
+    height: 30px;
     display: flex;
-    align-items: center;
+  
     
 }
 .section-a{
