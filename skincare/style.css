@@ -34,6 +34,57 @@ ul{
     font-size: 30px;
 }
 
+.cleanser{
+    display: inline-block;
+}
+
+.toner{
+    display: inline-block;
+}
+
+.serum{
+    display: inline-block;
+}
+
+.eyecream{
+    display: inline-block;
+}
+
+.moisturizer{
+    display: inline-block;
+}
+
+.sunscreen{
+    display: inline-block;
+}
+
+.exfoliation{
+    display: inline-block;
+}
+
+.mask{
+    display: inline-block;
+}
+
+.hydration{
+    display: inline-block;
+}
+
+.consistency{
+    display: inline-block;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #DEB887;
+    margin-top: 10px;
+    border: solid #DEB887;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .sc{
     display: flex;
