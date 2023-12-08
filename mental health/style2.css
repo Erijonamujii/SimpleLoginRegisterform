@@ -23,6 +23,7 @@ nav{
     height: 150px;
     margin-top: 10px;
 }
+
 ul{
     margin-top:70px ;
 
@@ -72,22 +73,31 @@ ul{
 }
 
 
+
 .search{
     display: flex;
     flex-direction: column;
 }
-
 .s{
     display: flex;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 .searchi{
     display: flex;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
+.ff{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.butoni_bg{
+    border-radius: 25px;
+    border: 1px solid #DEB887;
 }
 
 .connect{
@@ -97,11 +107,6 @@ ul{
     margin-top: 70px;
 }
 
-.ff{
-    display: flex;
-    justify-content: center;
-   
-}
 
 .button button{
     color: #FFFFF0;
@@ -119,13 +124,11 @@ ul{
 
 
 footer{
-    background-color: lightblue;
-    margin-bottom: 0px; 
-    margin-left: 0px; 
-    margin-right: 0px;
-    margin-top: 50px;
-
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
+
 .fillimifooter{
     display: flex;
     justify-content: center;

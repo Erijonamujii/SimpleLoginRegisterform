@@ -101,11 +101,13 @@ footer{
 .about:hover{
    color: black;
 }
- footer{
+
+footer{
     display: flex;
     flex-direction: column;
     align-content: space-between;
- }
+}
+
 .fillimifooter{
     display: flex;
     justify-content: center;

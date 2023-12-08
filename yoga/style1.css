@@ -1,0 +1,149 @@
+.womenology{
+    display: flex;
+    font-size: 50px;
+}
+
+.womenology img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+ul{
+    margin-top:70px ;
+
+    color: #DEB887;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+.loginbtn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.type1{
+    display: inline-block;
+}
+.type2{
+    display: inline-block;
+}
+
+.type3{
+    display: inline-block;
+}
+.type4{
+    display: inline-block;
+}
+.type5{
+    display: inline-block;
+}
+.type6{
+    display: inline-block;
+}
+.type7{
+    display: inline-block;
+}
+.type8{
+    display: inline-block;
+}
+.type9{
+    display: inline-block;
+}
+.type10{
+    display: inline-block;
+}
+.type11{
+    display: inline-block;
+}
+.type12{
+    display: inline-block;
+}
+
+
+
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: #DEB887;
+    margin-top: 10px;
+    border: solid #DEB887;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.yoga{
+    display: flex;
+    align-items: center;
+}
+
+.login-btn{
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.searchh{
+    border-radius: 25px;
+    border: 1px solid #DEB887;
+}
+.ff{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.butoni_bg{
+    border-radius: 25px;
+    border: 1px solid #DEB887;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 70px;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+}
+.s{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.searchi{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.fillimifooter{
+    display: flex;
+    justify-content: center;
+}
+
+
+.fundifooter{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
