@@ -9,6 +9,11 @@
     margin-top: 10px;
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
 ul{
     margin-top:70px ;
 
@@ -16,7 +21,7 @@ ul{
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
-    font-size: 30px;
+    font-size: 25px;
 }
 .loginbtn{
     position: absolute;
