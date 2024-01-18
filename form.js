@@ -24,6 +24,15 @@ myForm.onsubmit = function(){
         
         return true;
     }
+
+
+
+
+
+
+
+    
+    
 /*
 if(myForm.username.value ==""){
     message.innerText = "Please enter the username !";
