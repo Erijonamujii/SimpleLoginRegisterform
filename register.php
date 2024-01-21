@@ -37,11 +37,11 @@
     <input type="email"placeholder="Write your email here..." id="email" >
 </div>
 
-
 <div class="input">
-    <label for="Date">Date of birth</label>
-    <input type="date" id="date" >
+    <label for="Username">Username</label>
+    <input type="username"placeholder="Write your username here..." id="username" >
 </div>
+
 
 <div class="input">
     <label for="Password">Password</label>

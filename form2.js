@@ -10,14 +10,18 @@ event.preventDefault();
 
 if(myForm.name.value==""){
     message.innerText="Please enter your name!";
-    myForm.username.focus();
+    myForm.name.focus();
     return false;
 }else if(myForm.surname.value==""){
     message.innerText="Please enter your surname";
     myForm.surname.focus();
     return false;
 }
-
+else if(myForm.username.value==""){
+    message.innerText="Please enter your username";
+    myForm.username.focus();
+    return false;
+}
 
 
 
@@ -33,15 +37,7 @@ else if(myForm.email.value==""){
 }
 
 
-else if(myForm.date.value===""){
-    message.innerText="Please enter the date of birth!";
-    myForm.date.focus();
-    return false;
-}else if(!isValidDate(myForm.date.value)){
-    message.innerText="Please enter a valid date of birth";
-    myForm.date.focus();
-    return false;
-}
+
 else if(myForm.password.value===""){
 message.innerText="Please enter the password!";
 myForm.password.focus();

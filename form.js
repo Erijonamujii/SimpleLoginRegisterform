@@ -1,6 +1,6 @@
 
 
-var myForm=document.forms.loginForm;
+/*var myForm=document.forms.loginForm;
 var message=document.getElementById("message");
 
 
@@ -44,11 +44,11 @@ else{
     return true;
 }
 
-*/
+
 
 };
 
 
 
 
-
+*/

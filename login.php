@@ -1,4 +1,48 @@
 
+<?php
+  if(isset($_POST['submit'])){
+    if(empty($_POST['username']) || empty($_POST['password'])){
+      echo "Please fill the required fields!";
+    }else{
+        //validate
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        include_once 'users.php';
+        $i=0;
+        
+        foreach($users as $user){
+          if($user['username'] == $username && $user['password'] == $password){
+            session_start();
+      
+            $_SESSION['username'] = $username;
+            $_SESSION['password'] = $password;
+            $_SESSION['role'] = $user['role'];
+           // $_SESSION['loginTime'] = date("H:i:s");
+            header("location:home2.php");
+            exit();
+          }else{
+            $i++;
+            if($i == sizeof($users)) {
+              echo "Incorrect Username or Password!";
+              exit();
+            }
+          }
+        }
+    }
+  }
+?>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -21,7 +65,7 @@
 
 
 
-    <form class="login-form" name="loginForm" id="form" action="#" method="POST">
+    <form class="login-form" name="loginForm" id="form" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
       <h2>LOG IN</h2>
 
 
@@ -42,15 +86,15 @@
         <input type="password" id="password" name="password"  placeholder="**********" >
        
       </div>
-      <button type="submit" name="submit" value="Submit" ><a href="" style="color: aliceblue; text-decoration: none;">Login</a> </button>
+      <div class="submit">
+      <input type="submit" name="submit" value="Submit" >
+      </div>
     </form>
-<div  id="message"  style="color: red;"></div>
+
 
     <p class="register">Doesn't have any account yet? <a href="register.html">Register here</a></p>
   </div>
 </header>
-<script src="form.js"></script>
-
 
 
 </body>

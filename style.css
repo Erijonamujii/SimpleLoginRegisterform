@@ -76,19 +76,17 @@ font-size: 30px;
     border: 1px solid #ccc;
   }
   
-  button {
+  .submit input {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color:#DEB887;
+    background-color:#e9c18c;
     color: white;
     
     
   }
   
-  button:hover {
-    background-color:#A5907E;
-  }
+ 
   
   .register{
     color: #443730;
