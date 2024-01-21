@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +21,7 @@
 
 
 
-    <form class="login-form" name="loginForm" id="form" action="=" >
+    <form class="login-form" name="loginForm" id="form" action="#" method="POST">
       <h2>LOG IN</h2>
 
 
