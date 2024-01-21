@@ -19,7 +19,7 @@
             $_SESSION['password'] = $password;
             $_SESSION['role'] = $user['role'];
            // $_SESSION['loginTime'] = date("H:i:s");
-            header("location:home2.php");
+            header("location:home/home.php");
             exit();
           }else{
             $i++;
@@ -92,7 +92,7 @@
     </form>
 
 
-    <p class="register">Doesn't have any account yet? <a href="register.html">Register here</a></p>
+    <p class="register">Doesn't have any account yet? <a href="register.php">Register here</a></p>
   </div>
 </header>
 

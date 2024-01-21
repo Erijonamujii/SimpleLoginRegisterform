@@ -18,11 +18,11 @@
         </div>
         
         <ul>
-            <li style="margin-right: 50px;"><a href="../home/home.html" style="color: #DEB887; text-decoration: none; border-right: 1px solid #DEB887  ;padding: 0px 20px;">HOME</a></li>
-            <li style="margin-right: 50px;"><a href="" style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887  ;padding: 0px 20px;">SKINCARE</a></li>
-            <li style="margin-right: 50px;"><a href=""style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887  ;padding: 0 20px;">YOGA</a></li>
+            <li style="margin-right: 50px;"><a href="../home/home.php" style="color: #DEB887; text-decoration: none; border-right: 1px solid #DEB887  ;padding: 0px 20px;">HOME</a></li>
+            <li style="margin-right: 50px;"><a href="../skincare/index.php" style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887  ;padding: 0px 20px;">SKINCARE</a></li>
+            <li style="margin-right: 50px;"><a href="../yoga/index1.php"style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887  ;padding: 0 20px;">YOGA</a></li>
             <li><a href="../mental health/index2.html" style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887;padding: 0 25px;">MENTAL HEALTH</a></li>
-            <li style="margin-right: 50px;" class="li-item"><a href="" style="color: black; text-decoration: none; padding: 0 20px;">CONTACT US</a></li>
+            <li style="margin-right: 50px;" class="li-item"><a href="../contact/contact.php" style="color: black; text-decoration: none; padding: 0 20px;">CONTACT US</a></li>
         
         
         </ul>

@@ -17,7 +17,7 @@
 
     <div class="container">
 
-        <form action=""class="registerform" name="registerForm"  action="=">
+        <form action="<?php echo $_SERVER['PHP_SELF'] ?>"class="registerform" name="registerForm" method="POST"  >
             <h2> CREATE NEW ACCOUNT</h2>
             
 <div class="input">
@@ -48,12 +48,12 @@
     <input type="password"id="password"placeholder=" At least 8 characters" >
 </div>
 <div id="message" style="color: red;"></div>
-<button type="submit"><a href="login.html" style="color: aliceblue;text-decoration: none;">Register</a></button>
+<input type="submit" name="submit" value="Register" >
 
 
         </form>
 
-        <p class="login">Already registered ?<a href="login.html">Log in</a></p>
+        <p class="login">Already registered ?<a href="login.php">Log in</a></p>
 
     </div>
   <script src="form2.js"></script>  

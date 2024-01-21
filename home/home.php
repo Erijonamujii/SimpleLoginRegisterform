@@ -1,3 +1,24 @@
+
+
+
+<?php
+  session_start();
+  $hide="";
+  if(!isset($_SESSION['username']))
+    header("location:login.php");
+  else{
+    if($_SESSION['role'] == "admin")
+  echo "<button><a href='../dashboard.php'>Dashboard</a></button>";
+  }
+?>
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,16 +41,16 @@
 </div>
 
 <ul>
-    <li style="margin-right: 50px;"><a href="home.html" style="color: #DEB887; text-decoration: none; border-right: 1px solid #DEB887  ;padding: 0px 20px;">HOME</a></li>
-    <li><a href="../skincare/index.html" style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887  ;padding: 0px 20px;">SKINCARE</a></li>
-    <li><a href="../yoga/index1.html" style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887  ;padding: 0 25px;">YOGA</a></li>
-    <li><a href="../mental health/index2.html" style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887;padding: 0 25px;">MENTAL HEALTH</a></li>
-    <li style="margin-right: 50px;" class="li-item"><a href="../contact/contact.html" style="color: black; text-decoration: none; padding: 0 20px;">CONTACT US</a></li>
+    <li style="margin-right: 50px;"><a href="home.php" style="color: #DEB887; text-decoration: none; border-right: 1px solid #DEB887  ;padding: 0px 20px;">HOME</a></li>
+    <li><a href="../skincare/index.php" style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887  ;padding: 0px 20px;">SKINCARE</a></li>
+    <li><a href="../yoga/index1.php" style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887  ;padding: 0 25px;">YOGA</a></li>
+    <li><a href="../mental health/index2.php" style="color: #DEB887;text-decoration: none;border-right: 1px solid #DEB887;padding: 0 25px;">MENTAL HEALTH</a></li>
+    <li style="margin-right: 50px;" class="li-item"><a href="../contact/contact.php" style="color: black; text-decoration: none; padding: 0 20px;">CONTACT US</a></li>
 
 
 </ul>
 
-<a href="../login.html"><img src="login-removebg-preview (1).png" alt="" class="loginbtn" style="margin-top: 30px;"></a>
+<a href="../logout.php"><img src="login-removebg-preview (1).png" alt="" class="loginbtn" style="margin-top: 30px;"></a>
 
 
 
