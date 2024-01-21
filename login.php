@@ -15,9 +15,9 @@
 
   <div class="container">
 
-<!--- action="="-->
 
-    <form class="login-form" name="loginForm" id="form" action="=">
+
+    <form class="login-form" name="loginForm" id="form" action="=" >
       <h2>LOG IN</h2>
 
 
@@ -38,7 +38,7 @@
         <input type="password" id="password" name="password"  placeholder="**********" >
        
       </div>
-      <button type="submit" name="submit" value="Submit"><a href="" style="color: aliceblue; text-decoration: none;">Login</a> </button>
+      <button type="submit" name="submit" value="Submit" ><a href="" style="color: aliceblue; text-decoration: none;">Login</a> </button>
     </form>
 <div  id="message"  style="color: red;"></div>
 
