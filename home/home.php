@@ -1,19 +1,6 @@
 
 
 
-<?php
-  session_start();
-  $hide="";
-  if(!isset($_SESSION['username']))
-    header("location:login.php");
-  else{
-    if($_SESSION['role'] == "admin")
-  echo "<button><a href='../dashboard.php'>Dashboard</a></button>";
-  }
-?>
-
-
-
 
 
 
@@ -50,7 +37,7 @@
 
 </ul>
 
-<a href="../logout.php"><img src="login-removebg-preview (1).png" alt="" class="loginbtn" style="margin-top: 30px;"></a>
+<a href="../login.php"><img src="login-removebg-preview (1).png" alt="" class="loginbtn" style="margin-top: 30px;"></a>
 
 
 
