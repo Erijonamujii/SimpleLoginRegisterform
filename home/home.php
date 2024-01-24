@@ -37,7 +37,7 @@
 
 </ul>
 
-<a href="../login.php"><img src="login-removebg-preview (1).png" alt="" class="loginbtn" style="margin-top: 30px;"></a>
+<a href="../logout.php"><img src="login-removebg-preview (1).png" alt="" class="loginbtn" style="margin-top: 30px;"></a>
 
 
 
