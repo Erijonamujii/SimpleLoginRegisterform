@@ -2,7 +2,6 @@
 
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,9 +21,9 @@
 
     <div class="container">
 
-        <form action="<?php echo $_SERVER['PHP_SELF'] ?>"class="registerform" name="registerForm" method="POST"  >
+        <form action=""class="registerform" name="registerForm" method="post"  >
             <h2> CREATE NEW ACCOUNT</h2>
-            
+     
 <div class="input">
 
 <label for="name">Name</label>
@@ -32,27 +31,25 @@
 
 </div>
 
-<div class="input">
-    <label for="Surname">Surname</label>
-    <input type="text" id="surname"  id="surname"placeholder="Write your surname here...">
-</div>
+
 
 <div class="input">
     <label for="Email">Email</label>
-    <input type="email"placeholder="Write your email here..." id="email" >
+    <input type="email"placeholder="Write your email here..." name="email" id="email" >
 </div>
-
-<div class="input">
-    <label for="Username">Username</label>
-    <input type="username"placeholder="Write your username here..." id="username" >
-</div>
-
 
 <div class="input">
     <label for="Password">Password</label>
-    <input type="password"id="password"placeholder=" At least 8 characters" >
+    <input type="password"placeholder="At least 8 characters"  name="password"id="username" >
 </div>
-<div id="message" style="color: red;"></div>
+
+
+<div class="input">
+    <label for="Password">Confirm password</label>
+    <input type="password"id="cpassword"placeholder=" " name="cpassword">
+</div>
+
+
 <input type="submit" name="submit" value="Register" >
 
 

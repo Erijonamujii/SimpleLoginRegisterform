@@ -1,63 +1,38 @@
-
-
-
 <?php
+  if(isset($_POST['submit'])){
+    if(empty($_POST['username']) || empty($_POST['password'])){
+      echo "Please fill the required fields!";
+    }else{
+        //validate
+        $username = $_POST['username'];
+        $password = $_POST['password'];
 
-$host="localhost";
-$user="root";
-$password="";
-$db="user";
-
-session_start();
-
-
-$data=mysqli_connect($host,$user,$password,$db);
-
-if($data===false)
-{
-	die("connection error");
-}
-
-
-if($_SERVER["REQUEST_METHOD"]=="POST")
-{
-	$username=$_POST["username"];
-	$password=$_POST["password"];
-
-
-	$sql="select * from login where username='".$username."' AND password='".$password."' ";
-
-	$result=mysqli_query($data,$sql);
-
-	$row=mysqli_fetch_array($result);
-
-	if($row["usertype"]=="user")
-	{	
-
-		$_SESSION["username"]=$username;
-
-		header("location:userhome.php");
-	}
-
-	elseif($row["usertype"]=="admin")
-	{
-
-		$_SESSION["username"]=$username;
-		
-		header("location:adminhome.php");
-	}
-
-	else
-	{
-		echo "username or password incorrect";
-	}
-
-}
-
-
-
-
+        include_once 'users.php';
+        $i=0;
+        
+        foreach($users as $user){
+          if($user['username'] == $username && $user['password'] == $password){
+            session_start();
+      
+            $_SESSION['username'] = $username;
+            $_SESSION['password'] = $password;
+            $_SESSION['role'] = $user['role'];
+            
+            header("location:home2.php");
+            exit();
+          }else{
+            $i++;
+            if($i == sizeof($users)) {
+              echo "Incorrect Username or Password!";
+              exit();
+            }
+          }
+        }
+    }
+  }
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -78,10 +53,11 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 
 
 
-    <form class="login-form" name="loginForm" id="form" action="#" method="POST">
+    <form class="login-form" name="loginForm" id="form" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
       <h2>LOG IN</h2>
 
-
+    
+      
       <div class="input-group">
 
 
